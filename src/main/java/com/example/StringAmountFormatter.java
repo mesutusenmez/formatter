@@ -1,5 +1,12 @@
 package com.example;
 
+
+/**
+ * 
+ * This class formats string values as long values. 
+ * You can add new formatters such as FORMATTER1 and FORMATTER2.
+ * 
+ */
 public enum StringAmountFormatter implements Formatter<Long, String> {
     FORMATER1 {
 
