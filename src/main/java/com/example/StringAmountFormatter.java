@@ -20,7 +20,6 @@ public enum StringAmountFormatter implements Formatter<Long, String> {
 
         @Override
         public Long format(String value) {
-            
             return Long.valueOf(value.replace("", ","));
         }
 

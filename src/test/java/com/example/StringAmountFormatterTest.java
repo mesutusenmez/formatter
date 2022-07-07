@@ -6,7 +6,6 @@ import org.junit.Test;
 
 public class StringAmountFormatterTest {
     
-
     @Test
     public void test() {
        Long result =  StringAmountFormatter.FORMATER1.format("123");
